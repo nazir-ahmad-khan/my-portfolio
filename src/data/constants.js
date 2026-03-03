@@ -71,7 +71,7 @@ export const projects = [
     description:
       "A task management app with add, edit, delete, and completion features. Built with React for a seamless, interactive user experience.",
     tags: ["React", "HTML", "CSS", "JavaScript"],
-    liveUrl: "#",
+    liveUrl: "https://react-todo-app-project-nu.vercel.app/",
     githubUrl: "https://github.com/nazir-ahmad-khan",
   },
 ];
