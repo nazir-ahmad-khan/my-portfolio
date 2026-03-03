@@ -48,7 +48,7 @@ export const projects = [
       "A fully responsive landing page built with React, featuring modern design patterns, smooth layouts, and clean component architecture.",
     tags: ["React", "HTML", "CSS", "JavaScript"],
     liveUrl: "https://new-project-in-react-js-k5su.vercel.app/",
-    githubUrl: "https://github.com/nazir-ahmad-khan",
+    githubUrl: "https://github.com/nazir-ahmad-khan/new-project-in-react-js/tree/main",
   },
   {
     title: "Quiz App",
@@ -56,7 +56,7 @@ export const projects = [
       "An interactive quiz application with score tracking, timed questions, and a responsive UI built with React and styled using Tailwind CSS.",
     tags: ["React", "Tailwind CSS", "JavaScript"],
     liveUrl: "https://quiz-app-alpha-drab.vercel.app/",
-    githubUrl: "https://github.com/nazir-ahmad-khan",
+    githubUrl: "https://github.com/nazir-ahmad-khan/quiz-app",
   },
   {
     title: "Weather App",
@@ -64,7 +64,7 @@ export const projects = [
       "A weather application that fetches real-time weather data using APIs, displaying current conditions with a clean, intuitive interface.",
     tags: ["React", "HTML", "CSS", "JavaScript", "API"],
     liveUrl: "https://weather-repo-seven.vercel.app/",
-    githubUrl: "https://github.com/nazir-ahmad-khan",
+    githubUrl: "https://github.com/nazir-ahmad-khan/weather-repo",
   },
   {
     title: "Todo List",
@@ -72,7 +72,7 @@ export const projects = [
       "A task management app with add, edit, delete, and completion features. Built with React for a seamless, interactive user experience.",
     tags: ["React", "HTML", "CSS", "JavaScript"],
     liveUrl: "https://react-todo-app-project-nu.vercel.app/",
-    githubUrl: "https://github.com/nazir-ahmad-khan",
+    githubUrl: "https://github.com/nazir-ahmad-khan/react-todo-app-project",
   },
 ];
 
