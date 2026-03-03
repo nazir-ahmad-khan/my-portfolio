@@ -55,7 +55,7 @@ export const projects = [
     description:
       "An interactive quiz application with score tracking, timed questions, and a responsive UI built with React and styled using Tailwind CSS.",
     tags: ["React", "Tailwind CSS", "JavaScript"],
-    liveUrl: "#",
+    liveUrl: "https://quiz-app-alpha-drab.vercel.app/",
     githubUrl: "https://github.com/nazir-ahmad-khan",
   },
   {
