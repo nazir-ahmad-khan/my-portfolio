@@ -63,7 +63,7 @@ export const projects = [
     description:
       "A weather application that fetches real-time weather data using APIs, displaying current conditions with a clean, intuitive interface.",
     tags: ["React", "HTML", "CSS", "JavaScript", "API"],
-    liveUrl: "#",
+    liveUrl: "https://weather-repo-seven.vercel.app/",
     githubUrl: "https://github.com/nazir-ahmad-khan",
   },
   {
@@ -77,7 +77,7 @@ export const projects = [
 ];
 
 export const socialLinks = [
-  { icon: FaGithub, url: "https://github.com/nazir-ahmad-khan", label: "GitHub" },
+  { icon: FaGithub, url: "https://github.com/nazir-ahmad-khan/new-project-in-react-js", label: "GitHub" },
   { icon: FaLinkedin, url: "#", label: "LinkedIn" },
   { icon: HiOutlineMail, url: "mailto:nazirahmadkhantk@gmail.com", label: "Email" },
 ];

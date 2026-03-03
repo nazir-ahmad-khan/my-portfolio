@@ -44,8 +44,7 @@ function Projects() {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-10 h-10 bg-surface-900/80 rounded-full flex items-center justify-center text-accent-400 hover:bg-accent-500 hover:text-white transition-all duration-200"
-                        aria-label="Live Demo"
-                      >
+                        aria-label="Live Demo">
                         <FiExternalLink size={18} />
                       </a>
                     )}
@@ -54,12 +53,14 @@ function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-10 h-10 bg-surface-900/80 rounded-full flex items-center justify-center text-accent-400 hover:bg-accent-500 hover:text-white transition-all duration-200"
-                      aria-label="Source Code"
-                    >
+                      aria-label="Source Code">
                       <FiGithub size={18} />
                     </a>
                   </div>
                 </div>
+
+
+                
 
                 {/* Content */}
                 <div className="p-6 flex flex-col flex-1">
