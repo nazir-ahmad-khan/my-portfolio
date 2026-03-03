@@ -43,9 +43,9 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Landing Page Website",
+    title: "GTM Sales Development Platform (B2B Marketing Website)",
     description:
-      "A fully responsive landing page built with React, featuring modern design patterns, smooth layouts, and clean component architecture.",
+      "Built a React-based B2B sales platform with modular architecture, smooth routing, and conversion-driven design, deployed on Vercel.",
     tags: ["React", "HTML", "CSS", "JavaScript"],
     liveUrl: "https://new-project-in-react-js-k5su.vercel.app/",
     githubUrl: "https://github.com/nazir-ahmad-khan/new-project-in-react-js/tree/main",
