@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { personalInfo } from "../data/constants";
 import SectionHeading from "../ui/SectionHeading";
+import AboutImg from "../assets/Nazir-Ahmad.gif";
 
 const stats = [
   { number: "4+", label: "Projects Built" },
@@ -24,10 +25,11 @@ function About() {
             transition={{ duration: 0.6 }}
             className="flex justify-center"
           >
+            {/* bg-gradient-to-br from-accent-500/20 to-purple-500/20 */}
             <div className="relative">
-              <div className="w-64 h-64 md:w-72 md:h-72 rounded-2xl bg-gradient-to-br from-accent-500/20 to-purple-500/20 border-2 border-accent-500/20 flex items-center justify-center overflow-hidden">
+              <div className="w-64 h-64 md:w-72 md:h-72 rounded-2xl border-2 border-accent-500/20 flex items-center justify-center overflow-hidden">
                 <span className="text-7xl font-bold text-accent-400/40">
-                  NK
+                  <img src={AboutImg} alt="Nazir Ahmad" />
                 </span>
               </div>
               {/* Decorative corner */}
