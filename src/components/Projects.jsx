@@ -2,8 +2,10 @@ import { motion } from "motion/react";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import { projects } from "../data/constants";
 import SectionHeading from "../ui/SectionHeading";
+import { useState } from "react";
 
 function Projects() {
+  const [imageErrors, setImageErrors] = useState({});
   return (
     <section id="projects" className="py-20 px-4">
       <div className="max-w-5xl mx-auto">
@@ -19,22 +21,32 @@ function Projects() {
               transition={{ duration: 0.5, delay: index * 0.15 }}
             >
               <div className="bg-surface-800 rounded-2xl overflow-hidden border border-surface-600/50 hover:border-accent-500/30 transition-all duration-300 group h-full flex flex-col">
-                {/* Project image placeholder */}
-                <div className="h-48 bg-gradient-to-br from-surface-700 to-surface-600 relative overflow-hidden">
-                  {/* Decorative grid pattern */}
-                  <div
-                    className="absolute inset-0 opacity-5"
-                    style={{
-                      backgroundImage:
-                        "radial-gradient(circle, #06b6d4 1px, transparent 1px)",
-                      backgroundSize: "20px 20px",
-                    }}
-                  />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-2xl font-bold text-text-secondary/30 group-hover:text-accent-400/30 transition-colors duration-300">
-                      {project.title}
-                    </span>
-                  </div>
+                {/* Project image section */}
+                <div className="h-48 relative overflow-hidden bg-gradient-to-br from-surface-700 to-surface-600">
+                  {project.image && !imageErrors[project.title] && (
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="object-cover w-full h-full"
+                      onError={() => {
+                        setImageErrors((prev) => ({
+                          ...prev,
+                          [project.title]: true,
+                        }));
+                      }}
+                    />
+                  )}
+
+                  {/* Fallback title shown only if image fails or doesn't exist */}
+                  {(!project.image || imageErrors[project.title]) && (
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <span className="text-2xl font-bold text-text-secondary/30 group-hover:text-accent-400/30 transition-colors duration-300 text-center px-4">
+                        {project.title}
+                      </span>
+                    </div>
+                  )}
+
+
 
                   {/* Hover overlay with links */}
                   <div className="absolute inset-0 bg-accent-500/0 group-hover:bg-accent-500/10 transition-all duration-300 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100">

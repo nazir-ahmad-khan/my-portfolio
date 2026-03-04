@@ -2,6 +2,10 @@ import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaWordpress, FaGithub, 
 import { SiTailwindcss, SiJquery, SiCanva, SiAdobephotoshop, SiFigma } from "react-icons/si";
 import { HiOutlineMail } from "react-icons/hi";
 import { FiPhone, FiMapPin } from "react-icons/fi";
+import MarketingWebsiteImg from "../assets/Marketing-Website.gif";
+import QuizAppImg from "../assets/Quiz-App.gif";
+import WeatherAppImg from "../assets/Weather-App.gif";
+import TodoListImg from "../assets/Todo-List.gif";
 
 export const personalInfo = {
   name: "Nazir Ahmad Khan",
@@ -44,6 +48,7 @@ export const skills = [
 export const projects = [
   {
     title: "GTM Sales Development Platform (B2B Marketing Website)",
+    image: MarketingWebsiteImg,
     description:
       "Built a React-based B2B sales platform with modular architecture, smooth routing, and conversion-driven design, deployed on Vercel.",
     tags: ["React", "HTML", "CSS", "JavaScript"],
@@ -52,6 +57,7 @@ export const projects = [
   },
   {
     title: "Quiz App",
+    image: QuizAppImg,
     description:
       "An interactive quiz application with score tracking, timed questions, and a responsive UI built with React and styled using Tailwind CSS.",
     tags: ["React", "Tailwind CSS", "JavaScript"],
@@ -60,6 +66,7 @@ export const projects = [
   },
   {
     title: "Weather App",
+    image: WeatherAppImg,
     description:
       "A weather application that fetches real-time weather data using APIs, displaying current conditions with a clean, intuitive interface.",
     tags: ["React", "HTML", "CSS", "JavaScript", "API"],
@@ -68,6 +75,7 @@ export const projects = [
   },
   {
     title: "Todo List",
+    image: TodoListImg,
     description:
       "A task management app with add, edit, delete, and completion features. Built with React for a seamless, interactive user experience.",
     tags: ["React", "HTML", "CSS", "JavaScript"],
