@@ -7,6 +7,7 @@ import QuizAppImg from "../assets/Quiz-App.gif";
 import WeatherAppImg from "../assets/Weather-App.gif";
 import TodoListImg from "../assets/Todo-List.gif";
 
+
 export const personalInfo = {
   name: "Nazir Ahmad Khan",
   role: "Frontend Developer",
@@ -14,8 +15,9 @@ export const personalInfo = {
   phone: "+92-349-9308179",
   location: "Karachi, Pakistan",
   github: "https://github.com/nazir-ahmad-khan",
-  linkedin: "#",
-  resumeUrl: "/resume.pdf",
+  linkedin: "https://www.linkedin.com/in/nazir-ahmad-128a37370/",
+  // resumeUrl: "/resume.pdf",
+  resumeUrl: "../assets/Nazeer-Resume.pdf",
   heroTagline: "I build responsive, modern web experiences.",
   heroDescription:
     "A passionate Frontend Developer focused on crafting clean, user-friendly interfaces with React and modern CSS frameworks.",
